@@ -1,0 +1,20 @@
+{
+  "name": "booth-category-sequential-downloader",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "BOOTH分類別順次ダウンローダー の検証ハーネス付きプレリリース実装",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs && node tools/qcds-evaluate.mjs --allow-missing-zip && node tools/package-docs.mjs && node tools/qcds-evaluate.mjs && node tools/package-docs.mjs && node tools/mojibake-check.mjs",
+    "validate": "npm test",
+    "start": "node src/cli.mjs samples/sample-input.json dist/run"
+  },
+  "keywords": [
+    "chromeextension",
+    "booth-category-sequential-downloader",
+    "qcds",
+    "pre-release",
+    "representative-suite"
+  ],
+  "license": "MIT"
+}
