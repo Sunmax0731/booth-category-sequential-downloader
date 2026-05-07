@@ -1,0 +1,19 @@
+{
+  "product": {
+    "repository": "booth-category-sequential-downloader",
+    "title": "BOOTH分類別順次ダウンローダー"
+  },
+  "items": [
+    {
+      "id": "ok-1",
+      "title": "BOOTH分類別順次ダウンローダー 正常ケース",
+      "source": "source-ok",
+      "category": "category-ok",
+      "url": "url-ok",
+      "owner": "owner-ok",
+      "acceptance": "acceptance-ok",
+      "status": "ready",
+      "retryPolicy": "ready"
+    }
+  ]
+}

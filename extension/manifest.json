@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "BOOTH分類別順次ダウンローダー",
+  "version": "0.1.0",
+  "description": "別ツールで作成した商品分類とDLリンクをまとめたMarkdownを読み込み、分類ごとに商品を一覧表示する。選択した分類だけを対象に、ブラウザのダウンロードAPIで1件ずつ順番にDLし、待機間隔、進捗、失敗リトライ、スキッ",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
