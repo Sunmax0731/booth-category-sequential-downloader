@@ -1,0 +1,32 @@
+{
+  "product": "booth-category-sequential-downloader",
+  "repository": "Sunmax0731/booth-category-sequential-downloader",
+  "githubUrl": "https://github.com/Sunmax0731/booth-category-sequential-downloader",
+  "tag": "v0.1.0-alpha.1",
+  "releaseUrl": "https://github.com/Sunmax0731/booth-category-sequential-downloader/releases/tag/v0.1.0-alpha.1",
+  "prerelease": true,
+  "latest": false,
+  "assetCount": 3,
+  "assets": [
+    "booth-category-sequential-downloader-docs.zip",
+    "manual-test.md",
+    "strict-manual-test-addendum.md"
+  ],
+  "platformRuntimeGate": "dist/platform-runtime-gate-result.json",
+  "platformType": "chrome-extension",
+  "manualTest": "not-run-by-codex",
+  "qcdsEvaluation": {
+    "Quality": "S-",
+    "Cost": "S-",
+    "Delivery": "S-",
+    "Satisfaction": "S-",
+    "capReason": "manual-test-not-run-by-codex"
+  },
+  "github": {
+    "repo": "Sunmax0731/booth-category-sequential-downloader",
+    "url": "https://github.com/Sunmax0731/booth-category-sequential-downloader",
+    "releaseUrl": "https://github.com/Sunmax0731/booth-category-sequential-downloader/releases/tag/v0.1.0-alpha.1",
+    "prerelease": true,
+    "latest": false
+  }
+}
